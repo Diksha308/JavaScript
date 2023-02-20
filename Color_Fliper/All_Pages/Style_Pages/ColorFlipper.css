@@ -1,0 +1,50 @@
+/************************************Color Fliper Style*********************************************/
+/*******************************************BODY***************************************************/
+.body-style {
+  background-color: #609EA2;
+  margin: 0px;
+}
+/*****************************************Navigation Bar*************************************************/
+.nav-bar {
+  background-color: #F0EEED;
+  height: 50px;
+}
+.nav-bar ul {
+  list-style-type: none;
+  padding-top: 5px;
+}
+.nav-bar ul li {
+  float: left;
+}
+.nav-bar ul li a {
+  display: block;
+  padding: 10px;
+  color: #000;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-shadow: 1px 1px rgb(240, 239, 253);
+}
+
+.nav-bar ul li a:hover {
+  background-color: rgb(240, 239, 253);
+}
+.nav-bar ul li a:active {
+  background-color: rgb(240, 239, 253);
+  color: rgb(145, 139, 250);
+}
+/***************************************Button*********************************************/
+.button-area {
+  position: relative;
+  width: 25%;
+  height: 50px;
+  top: 70px;
+  padding: 10px;
+  margin: auto;
+}
+.button {
+  background-color: #D1FFF3;
+  color: #609EA2;
+  border-color: #609EA2;
+  font-size: 30px;
+}

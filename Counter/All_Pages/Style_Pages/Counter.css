@@ -1,0 +1,66 @@
+/************************************Color Fliper Style*********************************************/
+/*******************************************BODY***************************************************/
+.body-style {
+  background-color: #609ea2;
+  margin: 0px;
+}
+/*****************************************Navigation Bar*************************************************/
+.nav-bar {
+  background-color: #f0eeed;
+  height: 50px;
+}
+.nav-bar ul {
+  list-style-type: none;
+  padding-top: 5px;
+}
+.nav-bar ul li {
+  float: left;
+}
+.nav-bar ul li a {
+  display: block;
+  padding: 10px;
+  color: #000;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-shadow: 1px 1px rgb(240, 239, 253);
+}
+
+.nav-bar ul li a:hover {
+  background-color: rgb(240, 239, 253);
+}
+.nav-bar ul li a:active {
+  background-color: rgb(240, 239, 253);
+  color: rgb(145, 139, 250);
+}
+/*******************************************Counter*****************************************/
+.counterDiv {
+
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  margin-top: 100px;
+}
+#counterValue {
+    position: relative;
+  color: #d1fff3;
+  font-size: 50px;
+  text-align: center;
+  top: 30px;
+}
+/************************************Counter Button*****************************************/
+.counterBTNdiv {
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+  height: 100px;
+  width: 310px;
+}
+.counterBTN {
+  background-color: #d1fff3;
+  color: #609ea2;
+  border-color: #609ea2;
+  height: 100px;
+  width: 100px;
+  font-size: 15px;
+}

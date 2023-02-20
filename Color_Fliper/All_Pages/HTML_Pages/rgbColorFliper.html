@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Background Color</title>
+    <link rel="stylesheet" href="..\Style_Pages\ColorFlipper.css" />
+    <script type="text/javascript" src="..\JS_Pages\ColorChanger.js"></script>
+    <script type="text/javascript" src="..\JS_Pages\PageSelected.js"></script>
+  </head>
+  <body id="rgbBodyID" class="body-style" onload="rgbClicked()">
+    <div class="nav-bar">
+      <ul>
+        <li>
+          <a href="..\..\..\All_Project\HTML_Page\All_JS_Project.html"
+            >JS Projects
+          </a>
+        </li>
+        <li>
+          <a href="SimpleColorFlipper.html">Simple </a>
+        </li>
+        <li>
+          <a href="HexColorFlipper.html">Hex </a>
+        </li>
+        <li>
+          <a href="rgbColorFliper.html">rgb </a>
+        </li>
+        <li style="float: right">
+          <a href="ColorFlipperView.html">Color Flipper </a>
+        </li>
+      </ul>
+    </div>
+    <div class="button-area">
+      <input
+        type="button"
+        id="ClrChngBtn"
+        class="button"
+        value="Click to Change Background Color "
+        onclick="BtnClicked()"
+      />
+      <h4 id="ClrValue">Background Color is #609EA2</h4>
+    </div>
+  </body>
+</html>

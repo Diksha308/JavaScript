@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link rel="stylesheet" href="../Style_Pages/Counter.css">
+    <script type="text/javascript" src="../JS_Pages/Counter.js"></script>
+  </head>
+  <body class="body-style">
+    <div class="nav-bar">
+        <ul>
+            <li>
+                <a href="..\..\..\All_Project\HTML_Page\All_JS_Project.html">JS Projects </a>
+              </li>
+          <li style="float: right">
+            <a href="Counter.html">Counter </a>
+          </li>
+        </ul>
+      </div>
+    <div class="counterDiv">
+        <p id="counterValue">0</p>
+    </div>
+    <div class="counterBTNdiv">
+      <input type="button" value="Decrease" class="counterBTN" onclick="decValue()"/>
+      <input type="button" value="Reset" class="counterBTN" onclick="resValue()"/>
+      <input type="button" value="Increase" class="counterBTN" onclick="incValue()"/>
+    </div>
+  </body>
+</html>
