@@ -15,6 +15,7 @@
 }
 .nav-bar ul li {
   float: left;
+  padding: 2px;
 }
 .nav-bar ul li a {
   display: block;
@@ -24,27 +25,47 @@
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   text-shadow: 1px 1px rgb(240, 239, 253);
+  border-radius: 5px;
+  transition-property: all;
+  transition-duration: 0.5s;
 }
 
 .nav-bar ul li a:hover {
-  background-color: rgb(240, 239, 253);
+  background-color: #aeacab;
+  color: black;
+  text-decoration: solid;
 }
-.nav-bar ul li a:active {
-  background-color: rgb(240, 239, 253);
-  color: rgb(145, 139, 250);
+.nav-bar ul li a.active-page {
+  background-color: #aeacab;
+  color: black;
 }
 /***************************************Button*********************************************/
 .button-area {
   position: relative;
   width: 25%;
   height: 50px;
-  top: 70px;
-  padding: 10px;
+  top: 100px;
+  padding: 20px;
   margin: auto;
+  
 }
 .button {
-  background-color: #D1FFF3;
-  color: #609EA2;
+  background-color: #F0EEED;
+  color: #609ea2;
+  text-decoration: solid;
   border-color: #609EA2;
-  font-size: 30px;
+  font-size: 25px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  transition-property: all;
+  transition-duration: 0.5s;
+  height: 100px;
+  padding: 10px;
+}
+
+.button:hover{
+  background-color: #aeacab;
+  color: black;
+  text-decoration: solid;
 }

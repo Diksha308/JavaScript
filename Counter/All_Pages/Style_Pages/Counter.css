@@ -24,25 +24,30 @@
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   text-shadow: 1px 1px rgb(240, 239, 253);
+  border-radius: 5px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  text-shadow: 1px 1px rgb(240, 239, 253);
 }
 
 .nav-bar ul li a:hover {
-  background-color: rgb(240, 239, 253);
+  background-color: #aeacab;
+  color: black;
+  text-decoration: solid;
 }
-.nav-bar ul li a:active {
-  background-color: rgb(240, 239, 253);
-  color: rgb(145, 139, 250);
+.nav-bar ul li a.active-page {
+  background-color: #aeacab;
+  color: black;
 }
 /*******************************************Counter*****************************************/
 .counterDiv {
-
   height: 100px;
   width: 100px;
   margin: auto;
   margin-top: 100px;
 }
 #counterValue {
-    position: relative;
+  position: relative;
   color: #d1fff3;
   font-size: 50px;
   text-align: center;
@@ -51,16 +56,30 @@
 /************************************Counter Button*****************************************/
 .counterBTNdiv {
   position: relative;
-  margin: auto;
-  margin-top: 100px;
-  height: 100px;
-  width: 310px;
+  top: 100px;
+  padding: 20px;
+  text-align: center;
+ 
 }
 .counterBTN {
-  background-color: #d1fff3;
+  background-color: #f0eeed;
   color: #609ea2;
+  text-decoration: solid;
   border-color: #609ea2;
-  height: 100px;
-  width: 100px;
-  font-size: 15px;
+  font-size: 25px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  transition-property: all;
+  transition-duration: 0.5s;
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.counterBTN:hover {
+  background-color: #aeacab;
+  color: black;
+  text-decoration: solid;
 }
