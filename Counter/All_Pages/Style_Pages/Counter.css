@@ -1,17 +1,27 @@
 /************************************Color Fliper Style*********************************************/
 /*******************************************BODY***************************************************/
 .body-style {
-  background-color: #609ea2;
+  background-color: #c5edef;
   margin: 0px;
+}
+/*******************************************Header***************************************************/
+.headerPart {
+  background-color: #609ea2;
+  height: 200px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 /*****************************************Navigation Bar*************************************************/
 .nav-bar {
+  position: relative;
   background-color: #f0eeed;
   height: 50px;
+  top: 15px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 .nav-bar ul {
   list-style-type: none;
   padding-top: 5px;
+  margin: 0px;
 }
 .nav-bar ul li {
   float: left;
@@ -48,8 +58,8 @@
 }
 #counterValue {
   position: relative;
-  color: #d1fff3;
-  font-size: 50px;
+  color: #4b7b7e;
+  font-size: 70px;
   text-align: center;
   top: 30px;
 }
@@ -72,14 +82,17 @@
   text-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
   transition-property: all;
   transition-duration: 0.5s;
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   padding: 10px;
   margin: 10px;
+  font-size: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .counterBTN:hover {
   background-color: #aeacab;
   color: black;
   text-decoration: solid;
+  transform: scale(1.1);
 }

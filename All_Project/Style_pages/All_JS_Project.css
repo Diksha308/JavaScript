@@ -1,17 +1,37 @@
 /*******************************************BODY***************************************************/
 .body-style {
-  background-color: #609ea2;
+  background-color: #c5edef;
   margin: 0px;
 }
+/*******************************************Header***************************************************/
+.headerPart {
+  background-color: #609ea2;
+  height: 200px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.heading{
+  color: #223839;
+  text-shadow: 2px 2px 5px #3d6466;
+  margin: 0px;
+  text-align: center;
+ padding: 40px;
+ font-size: 70px;
+}
+/*******************************************Buttons***************************************************/
 .JS_Projects {
   position: relative;
   margin-top: 100px;
-  padding: 30px;
+  text-align: center;
 }
-.projectLink{
-  height: 150px;
-  width: 10px;
-  padding: 10px;
+ul{
+  list-style-type: none;
+  display: inline-block;
+  text-align: left;
+  padding: 0px;
+}
+ul li{
+  float:left ; 
+  margin: 30px;
 }
 .projectsBTN {
   background-color: #f0eeed;
@@ -22,12 +42,14 @@
   text-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
   transition-property: all;
   transition-duration: 0.5s;
-  height: 150px;
-  width: 150px;
-  font-size: 20px;
+  height: 250px;
+  width: 250px;
+  font-size: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
-.body-style .projectsBTN:hover {
+.projectsBTN:hover {
   background-color: #aeacab;
   color: black;
   text-decoration: solid;
+  transform: scale(1.1);
 }

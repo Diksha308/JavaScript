@@ -1,21 +1,30 @@
 /************************************Color Fliper Style*********************************************/
 /*******************************************BODY***************************************************/
 .body-style {
-  background-color: #609EA2;
+  background-color: #c5edef;
   margin: 0px;
+}
+/*******************************************Header***************************************************/
+.headerPart {
+  background-color: #609ea2;
+  height: 200px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 /*****************************************Navigation Bar*************************************************/
 .nav-bar {
-  background-color: #F0EEED;
+  position: relative;
+  background-color: #f0eeed;
   height: 50px;
+  top: 15px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 .nav-bar ul {
   list-style-type: none;
   padding-top: 5px;
+  margin: 0px;
 }
 .nav-bar ul li {
   float: left;
-  padding: 2px;
 }
 .nav-bar ul li a {
   display: block;
@@ -28,6 +37,7 @@
   border-radius: 5px;
   transition-property: all;
   transition-duration: 0.5s;
+  text-shadow: 1px 1px rgb(240, 239, 253);
 }
 
 .nav-bar ul li a:hover {
@@ -42,12 +52,11 @@
 /***************************************Button*********************************************/
 .button-area {
   position: relative;
-  width: 25%;
-  height: 50px;
   top: 100px;
   padding: 20px;
   margin: auto;
   
+  text-align: center;
 }
 .button {
   background-color: #F0EEED;
@@ -62,10 +71,13 @@
   transition-duration: 0.5s;
   height: 100px;
   padding: 10px;
+  font-size: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .button:hover{
   background-color: #aeacab;
   color: black;
   text-decoration: solid;
+  transform: scale(1.1);
 }
